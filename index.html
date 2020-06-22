@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.min.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery.theme.css">
 	<link rel="shortcut icon" href="media/logo.png" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
@@ -15,7 +17,7 @@
 	<a href="https://www.linkedin.com/in/gabriel-andriola-da-silveira-4a2b9115a/" target="blank"><img class="in" src="media/in.png"></a>
 	<nav>
 		<ul>
-			<li><a id="menu" href="#home">Home</a></li>
+			<li><a id="menu" href="index.html">Home</a></li>
 			<li><a id="menu" href="#eu">Quem sou eu?</a></li>
 			<li><a id="menu" href="#habilidades">Conhecimentos</a></li>
 			<li><a id="menu" href="#exp">Experiências</a></li>
@@ -36,9 +38,31 @@
 
 		</div>
 		<div class="col2">
-			<div class="zoom">
-			<img src="media/codigo_html.jpg">
-			</div>
+			<div class="gallery autoplay items-4">
+				<div id="item-1" class="control-operator"></div>
+				<div id="item-2" class="control-operator"></div>
+				<div id="item-3" class="control-operator"></div>
+				<div id="item-4" class="control-operator"></div>
+			  
+				<figure class="item">
+					  <img src="media/carrosel1.jpg" id="carrosel">
+				</figure>
+				<figure class="item">
+					<img src="media/carrosel3.jpg" id="carrosel">
+				</figure>
+			    <figure class="item">
+					<img src="media/carrosel2.jpg" id="carrosel">
+				</figure>
+				<figure class="item">
+					<img src="media/carrosel4.jpg" id="carrosel">
+		        </figure>
+				<div class="controls">
+				  <a href="#item-1" class="control-button">.</a>
+				  <a href="#item-2" class="control-button">.</a>
+				  <a href="#item-3" class="control-button">.</a>
+				  <a href="#item-4" class="control-button">.</a>
+				</div>
+			  </div>
 		</div>
 	</div>
 
@@ -57,11 +81,39 @@
 		<div class="col2">
 			<img id="perfil" src="media/Perfil.jpg">
 		</div>
-		
 	</div>
-
-	<div class="habilidade" id="habilidades">
-		
+	<br>
+	<h1 id="habilidades">Conhecimentos</h1>
+	<br>
+	<br>
+	<br>
+	<div class="habilidade">
+		<div class="c1">
+			<img src="media/logo_html.png" class="linguagem1">
+			<br>
+			<img src="media/logo_css.png" class="linguagem1">
+			<br>
+			<img src="media/logo_js.png" class="linguagem">
+		</div>
+		<div class="c2">
+			<img src="media/logo_c.png" class="linguagem">
+			<br>
+			<img src="media/logo_logica.png" class="linguagem">
+			<br>
+			<img src="media/logo_java.png" class="linguagem">
+		</div>
+		<div class="c3">
+			<img src="media/logo_windows.png" class="linguagem">
+			<br>
+			<img src="media/logo_linux.png" class="linguagem">
+			<br>
+			<img src="media/logo_mac.png" class="linguagem">
+		</div>
+		<div class="c4">
+			<img src="media/logo_ps.png" class="linguagem">
+			<br>
+			<img src="media/logo_boot.png" class="linguagem">
+		</div>
 	</div>
 
 	<div class="exp" id="exp">
