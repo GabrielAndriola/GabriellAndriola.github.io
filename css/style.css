@@ -49,8 +49,8 @@ nav a#menu:hover{
 	top: 30px;
 	left: 40px;
 	position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 	perspective: 800px;
 }
 @keyframes rotation{
@@ -88,14 +88,14 @@ nav a#menu:hover{
 	background-size: 100%;
     height: 100%;
     width: 100%;
-    transform: translateZ(-40px) scaleX(-1);
+    transform: translateZ(-35px) scaleX(-1);
 }
 .stories__face--front{
 	background-image: url(logo.png);
 	background-size: 100%;
     height: 100%;
     width: 100%;
-    transform: translateZ(+40px);
+    transform: translateZ(+35px);
 }
 /*
 img#logo{
